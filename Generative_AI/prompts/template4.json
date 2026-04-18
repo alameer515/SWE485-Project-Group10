@@ -1,0 +1,5 @@
+{
+  "template_id": "T4",
+  "template_name": "Actionable Shopping Guide",
+  "prompt": "A customer with the following profile ordered a clothing item:\n- Height: {height} cm\n- Hips: {hips} inches\n- Bra size: {bra_size}, Cup size: {cup_size}\n- Clothing length preference: {length}\n- Size ordered: {size}\n- Item category: {category}\n- Quality rating given: {quality} out of 5\n\nThe ML model predicted fit as '{prediction}'.\n\nWrite a short, practical shopping guide (3-4 sentences) that:\n1. Explains the fit prediction in the context of their measurements\n2. Suggests what size to try instead (if the fit is not 'Fit')\n3. Gives one practical tip specific to shopping for {category} items with their body profile\n\nKeep the tone friendly and direct."
+}

@@ -1,0 +1,5 @@
+{
+  "template_id": "T2",
+  "template_name": "Measurement-Aware Personalized Advice",
+  "prompt": "A customer with the following measurements is shopping online:\n- Height: {height} cm\n- Hips: {hips} inches\n- Bra size: {bra_size}\n- Cup size: {cup_size}\n- Preferred clothing length: {length}\n- Size ordered: {size}\n\nOur ML model predicted the fit as '{prediction}' for the item they selected. Based on these measurements and the prediction, give the customer a short, friendly sizing recommendation (2-3 sentences). Be specific about their measurements."
+}

@@ -1,0 +1,5 @@
+{
+  "template_id": "T3",
+  "template_name": "Cluster-Informed Contextual Advice",
+  "prompt": "Based on body measurements and clothing preferences, this customer belongs to a customer group characterized by: {cluster_description}.\n\nTheir selected item received a predicted fit of '{prediction}'.\n\nUsing this group profile, write a 2-3 sentence sizing suggestion that reflects what customers with these characteristics commonly experience when shopping for clothing online."
+}
