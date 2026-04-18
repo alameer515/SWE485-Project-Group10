@@ -3,20 +3,31 @@
 # This is a TEMPLATE file. Do not add your actual API key here.
 # To set up the API:
 # 1. Create a file named .env in the project root
-# 2. Add this line to it:  GEMINI_API_KEY=your-actual-key-here
-# 3. Get your free key from: https://aistudio.google.com
+# 2. Add this line to it:  GROQ_API_KEY=your-actual-key-here
+# 3. Get your free key from: https://console.groq.com
 # 4. Make sure .env is listed in .gitignore (already done)
 # -------------------------------------------------------
 
 import os
 from dotenv import load_dotenv
-import google.generativeai as genai
+from groq import Groq
 
-load_dotenv()  # Loads key from .env file
+load_dotenv()
 
-genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-model = genai.GenerativeModel("gemini-1.5-flash")
+client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
-# Test connection (optional)
-# response = model.generate_content("Hello")
-# print(response.text)
+model_to_use = "llama-3.1-8b-instant"
+
+## test the API connection runs successfully
+
+try:
+    response = client.chat.completions.create(
+        model=model_to_use,
+        messages=[
+            {"role": "user", "content": "Hello! I am testing the Groq API connection for my university project."}
+        ]
+    )
+    print("Success! Response:")
+    print(response.choices[0].message.content)
+except Exception as e:
+    print(f"An error occurred: {e}")
