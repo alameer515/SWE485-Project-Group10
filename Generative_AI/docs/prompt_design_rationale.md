@@ -27,6 +27,14 @@ In the clothing domain, the terms "fit," "small," and "large" as *fit labels* (n
 
 After writing this template, it became clear that the output would be nearly identical for every user with the same label. It's informative but impersonal. This limitation directly motivated the design of Templates 2 and 3.
 
+### Lessons Learned
+
+Testing this template showed that it works well as a simple baseline for explaining the prediction label. The responses were usually short and easy to read, but they were also very generic because the model only received the predicted fit label without any customer-specific context.
+
+We also observed that this template could sometimes misinterpret labels such as "Small" or "Large" as descriptions of the customer rather than descriptions of how the item fits. This highlighted the importance of clear prompt framing in the clothing-fit domain.
+
+Overall, this template was useful for establishing a baseline, but it showed clear limitations in personalization and consistency.
+
 ## Template 2 – Measurement-Aware Personalized Advice
 
 ### Thought Process
@@ -43,13 +51,11 @@ Age was included because it can correlate with fit preferences (e.g., older cust
 
 ### Lessons Learned
 
+From testing this template, we observed that including user measurements significantly improved the personalization of the responses. Compared to Template 1, the advice was more relevant to the customer profile and better aligned with the idea of a personalized recommendation system.
 
+At the same time, we noticed that the model sometimes made assumptions that went slightly beyond the given input, such as confidently recommending a different size even when the prediction alone did not fully justify that recommendation. This showed that adding more context improves usefulness, but it can also encourage the model to be more assertive than intended.
 
-
-
-
-
-
+Overall, this template demonstrated that structured measurement input is valuable, but the wording must still be carefully controlled to avoid overconfident advice.
 
 
 
@@ -69,14 +75,11 @@ In e-commerce, shopper segments are a well-established concept. Retailers like A
 
 ### Lessons Learned
 
+This template showed that adding cluster-level context can make the generated advice more informative and more connected to the unsupervised learning part of the project. Using a human-readable cluster description helped the model produce responses that felt more context-aware than those of the simpler templates.
 
+However, the results also showed that output quality depends heavily on the quality of the cluster description itself. When the cluster profile was clear and meaningful, the response was stronger; when it was vague, the generated advice became less useful.
 
-
-
-
-
-
-
+This taught us that clustering can improve Generative AI outputs, but only when the cluster interpretations are written in a clear and informative way.
 
 
 ## Template 4 – Actionable Shopping Guide
@@ -97,10 +100,11 @@ The friendly and direct tone instruction at the end was added because early draf
 
 ### Lessons Learned
 
+This template produced the most detailed and practical responses during testing. The structured instructions helped the model generate outputs that were more organized, including explanation, recommendation, and an actionable shopping tip.
 
+At the same time, the added structure sometimes made the model sound overly confident, especially when suggesting what size to try next. This means that while explicit instructions improve consistency and usefulness, they can also increase the risk of overgeneralization.
 
-
-
+Overall, this template demonstrated the value of structured prompting for user-facing advice, but it also showed the need to balance helpfulness with caution.
 
 
 
