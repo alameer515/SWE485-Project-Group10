@@ -1,4 +1,4 @@
-# Already run this ONCE to persist the trained models to disk.
+# Run this ONCE to persist the trained models to disk, and they will be ignored "not pushed due there relatively big size"
 
 import pandas as pd
 import numpy as np
