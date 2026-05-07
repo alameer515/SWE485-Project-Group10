@@ -1,0 +1,8 @@
+Cluster Profiles (Sample)
+=========================
+   kmeans_cluster                                                                                                 cluster_description
+0               0  customers with balanced body measurements and average length preference, mostly associated with new-category items
+1               0  customers with balanced body measurements and average length preference, mostly associated with new-category items
+2               0  customers with balanced body measurements and average length preference, mostly associated with new-category items
+3               0  customers with balanced body measurements and average length preference, mostly associated with new-category items
+4               0  customers with balanced body measurements and average length preference, mostly associated with new-category items
