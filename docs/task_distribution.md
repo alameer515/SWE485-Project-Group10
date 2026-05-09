@@ -59,9 +59,9 @@
 
 | Member | Phase 1 | Phase 2 |
 |--------|---------|---------|
-| **Khadija Salem** | Preprocessing; evaluation metrics & k-fold (Part B, item 3 — first two bullets); shared tasks 1–2 | Phase 2 Part B: model selection & prompt templates |
+| **Khadija Salem** | Preprocessing; evaluation metrics & k-fold (Part B, item 3 — first two bullets); | Phase 2 Part B: model selection & prompt templates |
 | **Asma Abd Al-Qawi** | Initial data inspection; logistic regression; shared tasks 1–2 | Phase 2 Part A: clustering rationale & data preparation |
 | **Aljohrah Alsadoun** | Dataset justification; random forest; shared tasks 1–2 | Phase 2 Part B: best prompt, integration plan, ethics & limitations |
 | **Asma Alameer** | GitHub + README; SVM; shared tasks 1–2 | Phase 2 Part A: cluster interpretation, integration strategy, challenges |
-| **Rowaida Alsebaie** | EDA; evaluation visualizations (Part B, item 3 — third bullet); shared tasks 1–2 | Phase 2 Part B: implementation, API, testing & analysis |
-| **Fatimah Sharfo** | Key insights; comparative analysis (Part B, item 4); shared tasks 1–2 | Phase 2 Part A: cluster determination, metrics & visualizations |
+| **Rowaida Alsebaie** | EDA; evaluation visualizations (Part B, item 3 — third bullet);  | Phase 2 Part B: implementation, API, testing & analysis |
+| **Fatimah Sharfo** | Key insights; comparative analysis (Part B, item 4);  | Phase 2 Part A: cluster determination, metrics & visualizations |
