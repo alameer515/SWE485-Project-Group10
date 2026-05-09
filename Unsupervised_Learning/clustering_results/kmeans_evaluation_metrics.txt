@@ -1,0 +1,5 @@
+K-Means Evaluation Metrics
+===========================
+Silhouette Score: 0.608
+Davies-Bouldin Index: 0.717
+WCSS: 18216.75

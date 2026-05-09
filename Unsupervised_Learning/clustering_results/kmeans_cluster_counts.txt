@@ -1,0 +1,9 @@
+K-Means Cluster Distribution
+============================
+kmeans_cluster
+0    21488
+1    20364
+2    18650
+3    15266
+4     4223
+5     2799

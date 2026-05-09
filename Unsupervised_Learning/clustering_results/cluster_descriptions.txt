@@ -1,0 +1,9 @@
+Cluster Descriptions
+====================
+ kmeans_cluster                                                                                                cluster_description
+              0 customers with balanced body measurements and average length preference, mostly associated with new-category items
+              1                           customers with slightly higher size, bra size, and cup size, mostly associated with tops
+              2                              customers with lower size and shorter clothing length, mostly associated with dresses
+              3                    customers with longer clothing length and balanced measurements, mostly associated with bottoms
+              4               customers with higher quality scores and compact body measurements, mostly associated with outerwear
+              5              customers with mixed preferences and smaller group size, mostly associated with sale or wedding items

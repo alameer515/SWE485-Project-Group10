@@ -1,0 +1,5 @@
+{
+  "template_id": "T1",
+  "template_name": "Basic Prediction Explainer",
+  "prompt": "A clothing size recommendation system predicted that a '{prediction}' fit label applies to this purchase. In 2-3 sentences, explain what this means for the customer in simple, friendly language. Do not suggest any action, just explain the prediction."
+}
