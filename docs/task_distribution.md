@@ -10,7 +10,7 @@
 
 | Section | Owner |
 |---------|-------|
-| **Introduction & Problem Statement** | Whole team |
+| **Introduction & Problem Statement** | Aljohrah Alsadoun|
 | **Dataset Selection & Justification** | Aljohrah Alsadoun |
 | **Initial Data Inspection** | Asma Abd Al-Qawi |
 | **Exploratory Data Analysis** (with visualizations) | Rowaida Alsebaie |
@@ -24,13 +24,13 @@
 
 | Task | Owner(s) |
 |------|----------|
-| **1. Model Selection & Rationale** | Whole team |
-| **2. Implementation & Training** | Whole team |
+| **1. Model Selection & Rationale** | Asma Alameer,Asma Abd Al-Qawi, Aljohrah Alsadoun |
+| **2. Implementation & Training** |Asma Alameer,Asma Abd Al-Qawi, Aljohrah Alsadoun |
 | **Support Vector Machine (SVM)** | Asma Alameer |
 | **Logistic Regression** | Asma Abd Al-Qawi |
 | **Random Forest Classifier** | Aljohrah Alsadoun |
-| **3. Comprehensive Evaluation** — first two bullets (multiple metrics: Accuracy, Precision, Recall, F1, Confusion Matrix, ROC-AUC; **k-fold cross-validation**) | Khadija Salem |
-| **3. Comprehensive Evaluation** — third bullet (plots: confusion matrix heatmap, ROC curves, feature importance) | Rowaida Alsebaie |
+| **3. Comprehensive Evaluation** —  (multiple metrics: Accuracy, Precision, Recall, F1, Confusion Matrix, ROC-AUC; **k-fold cross-validation**) | Khadija Salem |
+| **3. Comprehensive Evaluation** —  (plots: confusion matrix heatmap, ROC curves, feature importance) | Rowaida Alsebaie |
 | **4. Comparative Analysis & Interpretation** (best model, misclassification analysis, trade-offs, final recommendation) | Fatimah Sharfo |
 
 ---
