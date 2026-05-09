@@ -112,12 +112,12 @@ Overall, this template demonstrated the value of structured prompting for user-f
 
 The following principles from established prompt engineering guides informed our design:
 
-- **Be specific about format and length**: All four templates specify the desired output length (e.g., "2-3 sentences"). This reduces variance in output and makes outputs easier to compare. *(Source: OpenAI Prompt Engineering Guide)*
+- **Be specific about format and length**: All four templates specify the desired output length (e.g., "2-3 sentences"). This reduces variance in output and makes outputs easier to compare. *(Source: OpenAI Prompt Engineering Guide)* [6]
 
-- **Use structured input for structured data**: Template 2 uses a bullet-list format for customer attributes rather than embedding them in prose. This reduces the chance of the model misreading numerical values. *(Source: Anthropic Prompt Engineering Documentation)*
+- **Use structured input for structured data**: Template 2 uses a bullet-list format for customer attributes rather than embedding them in prose. This reduces the chance of the model misreading numerical values. *(Source: Anthropic Prompt Engineering Documentation)* [7]
 
-- **Separate explanation from action**: Templates 1 and 3 deliberately restrict the model to explanation only. This principle of task isolation helps produce cleaner, more focused outputs when you don't need the model to do everything at once. *(Source: Google DeepMind prompting best practices)*
+- **Separate explanation from action**: Templates 1 and 3 deliberately restrict the model to explanation only. This principle of task isolation helps produce cleaner, more focused outputs when you don't need the model to do everything at once. *(Source: Google DeepMind prompting best practices)* [8]
 
-- **Increase context progressively**: Our four templates form a progression from minimal (T1) to full context (T4). This is a standard technique for ablation-style prompt evaluation, by varying one element at a time, you can isolate which context actually helps.
+- **Increase context progressively**: Our four templates form a progression from minimal (T1) to full context (T4). This is a standard technique for ablation-style prompt evaluation, by varying one element at a time, you can isolate which context actually helps.[9]
 
-- **Avoid ambiguous framing**: The distinction between "fit label" and "size" was addressed explicitly in all prompts to prevent the model from confusing the two concepts. Ambiguous framing is one of the leading causes of off-topic or misleading LLM outputs.
+- **Avoid ambiguous framing**: The distinction between "fit label" and "size" was addressed explicitly in all prompts to prevent the model from confusing the two concepts. Ambiguous framing is one of the leading causes of off-topic or misleading LLM outputs.[10]
