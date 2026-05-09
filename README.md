@@ -24,3 +24,6 @@ By applying machine learning techniques to this dataset, our goal is to build an
 Kaggle – Clothing Fit Dataset for Size Recommendation  
 https://www.kaggle.com/datasets/rmisra/clothing-fit-dataset-for-size-recommendation
 
+## Purpose of save_model.py & predict.py file
+In the root, you can see two files, the first one (save_model) saves the two models of our system, Random Forest model and K-means model, along with a data scaler.
+Then the file predict, recieves input from the user (customer's info) and returns the model's prediction along with customer's cluster description, which is fed to a GAI model (Llama).
