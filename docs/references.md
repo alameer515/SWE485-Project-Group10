@@ -4,7 +4,9 @@
 
 [2] GeeksforGeeks, "K-Means Clustering Introduction," GeeksforGeeks, Jun. 08, 2023. [Online]. Available: https://www.geeksforgeeks.org/machine-learning/k-means-clustering-introduction/. [Accessed: May 09, 2024].
 
-[3] GeeksforGeeks, "DBSCAN Clustering in ML | Density-based clustering," GeeksforGeeks, Aug. 07, 2018. [Online]. Available: https://www.geeksforgeeks.org/machine-learning/dbscan-clustering-in-ml-density-based-clustering/. [Accessed: May 09, 2024].
+[3] Scikit-learn developers, "sklearn.cluster.KMeans," scikit-learn documentation, 2024. [Online]. Available: https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html. [Accessed: May 09, 2024].
+
+[4] GeeksforGeeks, "DBSCAN Clustering in ML | Density-based clustering," GeeksforGeeks, Aug. 07, 2018. [Online]. Available: https://www.geeksforgeeks.org/machine-learning/dbscan-clustering-in-ml-density-based-clustering/. [Accessed: May 09, 2024].
 
 
 ## generative / API components 
@@ -15,5 +17,4 @@
 ## Quick in-text examples
 
 - Dataset: “…using the public fit dataset [1].”  
-- Clustering: “We applied *k*-means [2] and compared with DBSCAN [3]”  
-
+- Clustering: "We applied k-means [2] using the implementation from the scikit-learn library [3], and compared it with DBSCAN [4]."
